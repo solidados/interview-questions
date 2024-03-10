@@ -1,0 +1,10 @@
+- Как работает серверный рендеринг в Next.js?
+- Что такое getInitialProps и getServerSideProps?
+- Зачем в Next.js нужны API routes?
+- Как вы статически генерируете страницы в Next.js?
+- Как работает роутинг в Next.js (включая динамические маршруты)?
+- Как сделать server-side redirection в Next.js?
+- Как вы бы сделали так, чтобы Next.js работал на кастомном сервере (например Express.js)?
+- Как осуществляется обработка ошибок в Next.js?
+- Что такое file-system-based routing?
+- Как использовать environment variables в Next.js?

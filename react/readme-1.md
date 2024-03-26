@@ -58,7 +58,7 @@
 
 ## Плюсы минусы реакта
 
-- What are the [limitations of React](./00-What-is-React.md/#what-are-the-limitations-of-react)?
+- What are the [limitations of React](00-What-is-React.md/#what-are-the-limitations-of-react)?
 
 ## Exercise tasks
 

@@ -5,6 +5,7 @@ Primitives
 - [Какими способами можно объявить переменную](./03.var-declaration.md/#способы-объявления-переменных)
 - [В чём разница между `null` и `undefined`](./04.null-undefined.md/#в-чём-разница-null-и-undefined)
 - [Какие значения являются `falsy`](./14.falsy-values.md/#значения-falsy)
+- [Что такое `Symbol`](./27.symbol.md/#тип-данных-symbol)
 ---
 Literals
 - [Что такое шаблонные литералы и зачем они нужны](./08.template-literal.md/#шаблонный-литерал)
@@ -27,6 +28,7 @@ Objects:
 
 - [Что такое "Прототипное наследование"](12.prototype-inheritance.md/#прототипное-наследование)
 - [Чем отличается `prototype` от `__proto__`](./13.prototype-vs-proto.md/#итог)
+- [Что такое "дескрипторы свойств"](./28.descriptors.md/#дескрипторы-свойств)
 ---
 Promises and Async
 - [Что такое Promise](./15.promise.md/#promise)

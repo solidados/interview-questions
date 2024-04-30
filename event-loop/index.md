@@ -1,3 +1,6 @@
+# Index
+[Source](https://www.youtube.com/watch?v=zDlg64fsQow)
+
 • [Архитектура браузера](./browser-architecture.md/#архитектура-браузера)
 
 • Что такое `Event Loop`?  

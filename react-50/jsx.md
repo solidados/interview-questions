@@ -7,7 +7,7 @@ function Welcome(props){
   return <h1>Hello, {props.name}</h1>
 }
 ```
-Components structure is created via functions, and not via HTML.
+Component structure is created via functions, and not via HTML.
 Literally `JSX` is a `React.createElement()` function.  
 
 

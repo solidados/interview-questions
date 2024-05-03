@@ -10,11 +10,16 @@
 - [Styled component](./04.styled-component.md/#styled-component)
 - [Что такое Component в React](./05.component-definition.md/#что-такое-component)
 - [Классовый и Функциональный компонент](./14.Component-class-functional.md/#class-vs-functional-component)
+- [Контролируемые и Неконтролируемые компоненты](./)
 - [Controlled Component](./10.controlled-component.md/#управляемый-компонент)
-- [Жизненный цикл компонента](./11.component-life-cycle.md/#жизненный-цикл-компонента)
 - [HOC](./13.HOC.md/#компонент-высшего-порядка-hoc)
   - [Функция memo()](./12.memo.md/#функция-memo)
 - [Ref](./15.ref.md/#ref)
+
+**Lifecycle and State**
+- [`Props` vs `State` - В чём отличие](./17.props-state.md/#props-vs-state)
+- [Жизненный цикл компонента](./11.component-life-cycle.md/#жизненный-цикл-компонента)
+
 
 **DOM**
 - [Virtual DOM](./06.virtual-DOM.md/#virtual-dom)

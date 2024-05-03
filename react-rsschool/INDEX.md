@@ -10,7 +10,7 @@
 - [Styled component](./04.styled-component.md/#styled-component)
 - [Что такое Component в React](./05.component-definition.md/#что-такое-component)
 - [Классовый и Функциональный компонент](./14.Component-class-functional.md/#class-vs-functional-component)
-- [Контролируемые и Неконтролируемые компоненты](./)
+- [Контролируемые и Неконтролируемые компоненты](./18.controlled-uncontrolled-components.md)
 - [Controlled Component](./10.controlled-component.md/#управляемый-компонент)
 - [HOC](./13.HOC.md/#компонент-высшего-порядка-hoc)
   - [Функция memo()](./12.memo.md/#функция-memo)

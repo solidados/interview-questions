@@ -6,19 +6,21 @@ this – это ключевое слово ссылается на текущи
 ### Глобальный контекст
 В глобальном контексте выполнения `this` ссылается на объект `window` в браузере, или на объект `global` в Node.js
 ```js
-console.log(this) // window (browser) || global (Node.js)
+function sayHi() {
+  console.log(` THIS: ${this}`) // window (browser) || global (Node.js)
+}
 ```
 
 ### В контексте метода объекта
 Если функция является методом объекта, тогда `this` ссылается на сам этот объект.
 ```js
-const obj = {
-  myMethod() {
-    console.log(this) // obj
+const user = {
+  name: 'John',
+  greet: sayHi,
   }
 }
 
-obj.myMethod()
+user.greet() // { name: 'John', greet: _f_ }
 ```
 
 ### В функции, вызванной function()
@@ -26,10 +28,11 @@ obj.myMethod()
 быть определено разными способами:
 - в `"strict mode"` `this = undefined`
 - в нестрогом режиме `this` ссылается на window/global
+
 ```js
 function example() {
   console.log(this); // undefined (в строгом режиме)
-                    // или window/global (в нестрогом режиме)
+                     // или window/global (в нестрогом режиме)
 }
 example();
 ```

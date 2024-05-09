@@ -7,7 +7,7 @@ this – это ключевое слово ссылается на текущи
 В глобальном контексте выполнения `this` ссылается на объект `window` в браузере, или на объект `global` в Node.js
 ```js
 function sayHi() {
-  console.log(` THIS: ${this}`) // window (browser) || global (Node.js)
+  console.log(`THIS: ${this}`) // window (browser) || global (Node.js)
 }
 ```
 
@@ -20,7 +20,7 @@ const user = {
   }
 }
 
-user.greet() // { name: 'John', greet: _f_ }
+user.greet() // { name: 'John', greet: f }
 ```
 
 ### В функции, вызванной function()
@@ -31,8 +31,8 @@ user.greet() // { name: 'John', greet: _f_ }
 
 ```js
 function example() {
-  console.log(this); // undefined (в строгом режиме)
-                     // или window/global (в нестрогом режиме)
+  console.log(this); // undefined (в строгом режиме) или
+                     // window/global (в нестрогом режиме)
 }
 example();
 ```
